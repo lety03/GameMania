@@ -1,0 +1,182 @@
+body {
+    background-color: #000000 !important;
+}
+
+    /* estilos para o menu */
+
+.navbar {
+    background-color: #0D1F4D;
+}
+
+button#button-addon1 {
+    background-color: #FFFFFF !important;
+    background:url(../imagens/lupa.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1em;
+    padding-right: 0.5em !important;
+    border-top-left-radius: 2rem !important;
+    border-bottom-left-radius: 2rem !important;
+}
+.form-control {
+    border-top-right-radius: 3rem !important;
+    border-bottom-right-radius: 3rem !important;
+}
+
+.logo img {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.nav-item img{
+    padding-top: 20px !important;
+}
+.link {
+    list-style-type: none;
+}
+.navbar-toggler {
+    margin-left: 80px !important;
+}
+.navbar-toggler {
+    display: none !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("./imagens/menu_white_36dp.svg") !important;
+    }
+
+.navbar-toggler {
+        border-color: #20c997 !important;
+    }
+
+@media (max-width: 798px) {
+
+    .log-cad {
+        display: none !important;
+    }
+
+    .nav-item img{
+        padding-top: 10px !important;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    
+    .navbar-toggler {
+        display: block !important;
+    }
+    
+    .nav{
+        display: none !important;
+    }
+    .navbar-toggler {
+        margin-left: 30px !important;
+    }
+    }
+   /* estilo para carrossel principal */
+
+    .carousel-indicators button {
+        height: 10px !important;
+        width: 10px !important;
+        margin: 0 10px !important;
+        border-radius: 100%;
+        background-color: #FFFFFF !important;
+    }
+
+    /* estilos para secao de produtos */
+.section-name {
+    color: #FFF;
+    margin: 1rem;
+}
+.carousel-control-prev-icon {
+    background-image: url("./imagens/prevbottom.svg") !important;
+}
+.carousel-control-next-icon {
+    background-image: url("./imagens/nextbottom.svg") !important;
+}
+.card {
+    background-color: #000000 !important;
+}
+.list-group-item {
+    background-color: #000000 !important;
+}
+.card-text {
+    color: #FFFFFF;
+}
+li .list-group-item h4 h6 {
+    color: #FFFFFF ;
+}
+
+@media screen and (min-width:750px) {
+    .cards-wrapper {
+        display: flex !important;
+    }
+    .cards-wrapper {
+        margin: 1rem;
+    }
+    .card {
+        margin: 0.5rem;
+        width: calc(100%/4);
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    .card:not(:nth-child(even)){
+        display: none;
+    }
+    .cards-wrapper {
+        display: flex !important;
+        margin: 0.5rem;
+    }
+    .card {
+        margin: 0.2rem;
+    }
+}
+footer {
+    background-color: #0D1F4D;
+}
+
+.cabecalho {
+    margin-left: 1rem;
+}
+.cabecalho h6 {
+    color: #FFF;
+}
+
+.cabecalho li {
+    color: #FFF;
+}
+.primeira-coluna li {
+    list-style: none;
+}
+.segunda-coluna li {
+    list-style: none;
+}
+.contatos li {
+    list-style: none;
+}
+
+@media screen and (min-width:613px) {
+    .cabecalho {
+        display: flex;
+    }
+    .colunas-incos {
+        display: flex;
+    }
+    .cabecalho {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-top: 2rem;
+    }
+    .bandeiras h6{
+        padding-left: 1.8rem;
+    }
+    .incostitucional h6 {
+        padding-left: 5.8rem;
+    }
+    .contatos h6 {
+        padding-left: 1.8rem;
+    }
+}
