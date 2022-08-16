@@ -1,9 +1,12 @@
 body {
     background-color: #000000 !important;
 }
+/* main {
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+} */
 
     /* estilos para o menu */
-
 .navbar {
     background-color: #0D1F4D;
 }
@@ -47,7 +50,7 @@ button#button-addon1 {
 .navbar-toggler {
         border-color: #20c997 !important;
     }
-
+    /* tornando o menu responsivo */
 @media (max-width: 798px) {
 
     .log-cad {
@@ -60,7 +63,7 @@ button#button-addon1 {
     
 }
 
-@media (max-width: 600px) {
+@media (max-width: 601px) {
     
     .navbar-toggler {
         display: block !important;
@@ -162,6 +165,10 @@ li .list-group-item h4 h6 {
     #maissecao {
         display: none;
     }
+    main {
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+}
     
 }
 
@@ -184,6 +191,7 @@ li .list-group-item h4 h6 {
         display: none;
     }
 }
+    /* estilos para o rodape */
 footer {
     background-color: #0D1F4D;
 }
@@ -239,6 +247,7 @@ footer {
         padding-left: 1.8rem;
     }
 }
+    /* estilizando a pagina de login */
 .formulario-de-login {
     background-color: #0D1F4D;
     position: relative;
@@ -274,4 +283,7 @@ footer {
     display: flex;
     justify-content: center;
     color: #FFF;
+}
+div.contatos ul {
+    word-break: break-word;
 }
